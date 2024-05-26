@@ -1,0 +1,108 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <style>
+        body{
+    background-color: #191919;
+}
+#navbarScroll{
+    padding-left: 200px;
+}
+#navbar{
+    width: 990px;
+    display: flex;
+    align-items: center;
+    position: sticky;
+    margin-top: 100px;
+    left: 170px;
+    text-align: center;
+    border-radius: 5px;
+    border: 1px solid black;
+    
+}
+*{
+    color: white;
+}
+p{
+    font-family: 'Poppins', sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+}
+h1{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    width: 19rem;
+    color: white;
+    text-align: center;
+    margin-left: 33rem;
+}
+    </style>
+    <title>Let's Chat</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark" id="navbar" style="position: relative;">
+        <a class="navbar-brand" href="#">© Portfolio</a>
+        <div class="collapse navbar-collapse" id="navbarScroll">
+          <ul class="navbar-nav mr-auto my-2 my-lg-1 navbar-nav-scroll" style="max-height: 100px;">
+            <li>
+              <div class="mx-4"><h5><a class="navbar-brand" href="index.html" style="color: white;">Home</a></h5></div>
+            </li>
+            <li>
+              <div class="mx-4"><h5><a class="navbar-brand" href="project.html" style="color: white;">Project</a></h5></div>
+            </li>
+            <li>
+            <div class="mx-4"><h5><a class="navbar-brand" href="about.html" style="color: white;">About</a></h5></div>
+            </li>
+          </ul>
+          <a class="btn btn-dark btn-lg" href="letschat.html">Let's Chat</a>
+        </div>
+      </nav>
+
+      <br><br>
+      <br><br>
+      <br>
+            <p style="text-align: center;" id="letp">Contact</p>
+            <br>
+            <h1 style="text-align: center;">Lets Chat</h1>
+            <br><br>
+            <div id="formtext" style="color: white;">
+              <form class="form" action="https://api.web3forms.com/submit" method="POST" id="form">
+                <div class="form-lable-group">
+                  <input type="hidden" name="access_key" value="9d30f548-c6d0-4eb5-b184-69e6a1028217">
+                  <input type="name" id="name" class="form-control" placeholder="FullName" required="" autofocus="" style="background-color: black;" name="Name">
+                  <br>
+                  <input type="email" id="email" class="form-control" placeholder="E-mail" required="" autofocus="" style="background-color: black;" name="E-mail">
+                  <br>
+                  <input type="text" id="subject" class="form-control" placeholder="Subject" required="" autofocus="" style="background-color: black;" name="Subject">
+                  <br>
+                  <input type="number" id="phone" class="form-control" placeholder="Phone no." required="" autofocus="" style="background-color: black;" name="Contact Number">
+                  <br>
+                  <textarea id="message" class="form-control" placeholder="message" required autofocus="" style="background-color: black;" rows="10" name="message"></textarea>
+              <br>
+                <button class="btn btn-lg btn-dark btn-block" type="submit">submit</button>
+              </div>
+              </form>
+            <br><br>
+            <br><br>
+            <br><br>
+            <br><br>
+
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+
+    <script>
+      
+    </script>
+  </body>
+</html>
